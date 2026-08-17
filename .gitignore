@@ -1,0 +1,5 @@
+config.local.json
+.env
+demo.db
+__pycache__/
+*.pyc
