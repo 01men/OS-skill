@@ -1,0 +1,15 @@
+{
+  "name": "dingtalk-robot-launcher",
+  "version": "1.0.0",
+  "description": "网页触发钉钉授权 -> 识别用户唯一标识 -> 自动打开钉钉机器人对话",
+  "main": "server/index.js",
+  "scripts": {
+    "start": "node server/index.js",
+    "dev": "node --watch server/index.js"
+  },
+  "dependencies": {
+    "axios": "^1.7.9",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2"
+  }
+}

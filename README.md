@@ -7,6 +7,7 @@
 | 模块 | 说明 | 目录 |
 |---|---|---|
 | 账号与身份体系 | 多租户 RBAC + 飞书/钉钉/企业微信四种登录形态（网页授权 / PC 扫码 / 手机 H5 / 客户端免登）+ 邮箱/手机账号绑定、解绑、合并；含 ER 模型、DDL、Adapter 抽象、时序图、安全清单、接入配置表与钉钉验证 Demo | [modules/auth-identity](modules/auth-identity) |
+| 钉钉网页授权机器人-自动跳转客户端 | 给 Agent/AI 应用绑定钉钉机器人：网页 OAuth 授权识别用户身份（unionId/userId）、服务端推送机器人单聊自动建立会话、jumprobot 协议唤起钉钉客户端打开机器人对话窗口；含控制台配置指引、踩坑清单与可直接运行的参考服务实现 | [modules/dingtalk-robot-oauth](modules/dingtalk-robot-oauth) |
 
 > 后续会持续收录其他 SaaS 构建通用模块。
 
